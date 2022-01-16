@@ -1,0 +1,42 @@
+@import "reset.css";
+
+body{
+}
+
+/*header*/
+.header {
+   background: url(../img/header/background.png) no-repeat;
+   width: 1280px;
+   height: 490px;
+}
+
+.wrapper {
+   width: 1024px;
+   width: calc(100% - 130px);
+   margin: 0 auto;
+}
+
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position:absolute;
+}
+
+.header__logo {
+   margin: 55px 0 0 90px;
+}
+
+.nav__link {
+   text-decoration: none;
+   color: #e1e4e4;
+   margin: 55px 40px 0 0;
+}
+
+.nav :last-child {
+   margin-right: 78px;
+}
+
+.bunner {
+   margin: 200px 0 0 120px;
+}
